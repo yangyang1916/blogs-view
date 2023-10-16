@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "candy-script start",
+    "build": "candy-script build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "http://yangyang1916.github.io/blogs-view",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
